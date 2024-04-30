@@ -1,0 +1,36 @@
+{
+  "name": "rtn-lottie-view",
+  "version": "0.0.1",
+  "description": "react native fabric component 테스트",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rtn-lottie-view.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": ["react-native", "ios", "android", "lottie"],
+  "repository": "https://github.com/wisdomstar94/rtn-lottie-view",
+  "author": "wisdomstar94@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wisdomstar94/rtn-lottie-view/issues"
+  },
+  "homepage": "https://github.com/wisdomstar94/rtn-lottie-view#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNLottieViewSpecs",
+    "type": "components",
+    "jsSrcsDir": "js"
+  }
+}
