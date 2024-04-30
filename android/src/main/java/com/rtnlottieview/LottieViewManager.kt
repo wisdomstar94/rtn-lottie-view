@@ -11,7 +11,7 @@ import com.facebook.react.viewmanagers.RTNLottieViewManagerDelegate
 
 @ReactModule(name = LottieViewManager.NAME)
 class LottieViewManager(context: ReactApplicationContext) : SimpleViewManager<LottieView>(), RTNLottieViewManagerInterface<LottieView> {
-  private val delegate: RTNLottieViewManagerDelegate<LottieView> = RTNLottieViewManagerDelegate(this)
+  private val delegate: ViewManagerDelegate<LottieView> = RTNLottieViewManagerDelegate(this)
 
   override fun getDelegate(): ViewManagerDelegate<LottieView> = delegate
 
